@@ -7,6 +7,7 @@ public class demo3 {
 		//create instance of class to print the contents and non static block
 		
 		demo3 obj=new demo3();
+		demo3 obj2=new demo3();
 	}
 	//constructor
 	public demo3() {
@@ -16,5 +17,8 @@ public class demo3 {
 	{
 		System.out.println("from non static block");
 	}
-
+	static {
+		System.out.println("static block");
+	}
+	
 }
