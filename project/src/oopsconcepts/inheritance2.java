@@ -17,7 +17,7 @@ class Vehicle{
 
 class Car extends Vehicle{
 	String fuel() {
-		return "Disel";
+		return "Diesel";
 	}
 }
 class Bike extends Vehicle{
